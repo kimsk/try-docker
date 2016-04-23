@@ -32,4 +32,4 @@ WORKDIR /var/www
 RUN npm install
 
 EXPOSE $PORT
-EXTRYPOINT ["npm","start"]
+ENTRYPOINT ["npm","start"]
